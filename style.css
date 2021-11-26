@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  width: 80.208333%;
+  margin-left: 10.97222%;
+  margin-top: 38px;
+  margin-bottom: 45px;
+}
+
+hr {
+  width: 80.20833%;
+  margin-left: 10.97222%;
+  border-radius: 0px;
+  color: #EFEEF3;
+  border: 1px solid #EFEEF3
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #16133D;
+}
+
+main {
+  width: 80.208333%;
+  margin-left: 10.97222%;
+  margin-top: 55px;
+}
+
+.header {
+  display: flex;
+}
+
+.logo {
+  margin: 4px 2px;
+}
+
+h3 {
+  margin-left: 14px;
+  font-family: Quicksand;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+h4 {
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #16133D;
+}
+
+h5 {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #7690A8;
+}
+
+h1 {
+  margin-top: 17px;
+  font-family: Nunito Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #16133D;
+}
+
+p {
+  margin-top: 14px;
+  margin-bottom: 29px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #16133D;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  gap: 39px;
+  margin-top: 35px;
+}
+
+.card {
+  padding: 2.28% 5.98% 5.28% 2.28%;
+  width: 25%;
+  border: 1px solid #E5EAF4;
+  border-radius: 4px;
+}
+
+.icon {
+  border: 1px solid #1565D81A;
+  height: 64px;
+  width: 64px;
+  border-radius: 16px;
+  margin-bottom: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  background-color: #16133D;
+  width: 100%;
+  margin-top: 69px;
+}
+
+.freehand {
+  display: flex;
+}
+
+footer h3 {
+  margin-left: 14px;
+  font-family: Quicksand;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #F2F2F2;
+  margin-top: 36px;
+
+}
+
+.freehand {
+  margin-left: 10.97222%;
+  margin-top: 36px;
+}
+
+
+.card:hover {
+  border: 1px solid #52C29D;
+  fill: #52C29D;
+
+}
+
+.card:hover .icon {
+  border: 1px solid #3DB3701A;
+}
+
+.card:hover .first-1 {
+  fill: #E1F4F5;
+}
+
+.card:hover .first-2 {
+  fill: #CAEFF2;
+}
+
+.card:hover .first-3 {
+  fill: #F4FEFF;
+}
+
+.card:hover .first-4 {
+  fill: #CAEFF2;
+}
+
+.card:hover .first-5 {
+  fill: #CAEFF2;
+}
+
+.card:hover .first-6 {
+  fill: #CAEFF2;
+}
+
+.card:hover .first-7 {
+  fill: #52C29D;
+}
+
+.card:hover .first-8 {
+  fill: #52C29D;
+}
+
+.card:hover .first-9 {
+  fill: #ffffff;
+}
+
+.card:hover~svg {
+  fill: #52C29D;
+}
+
+.logo-2 {
+  margin-top: 40px;
+}
+
+.social {
+  display: flex;
+  margin-left: 10.97222%;
+  gap: 8px;
+  margin-top: 40px;
+  padding-bottom: 45px;
+}
+
+.instagram:hover #instagram {
+  fill: #3DB370;
+}
+
+.git:hover #git {
+  fill: #3DB370;
+}
+
+.web:hover #web {
+  fill: #3DB370;
+}
+
+.twitter:hover #twitter {
+  fill: #3DB370;
+}
+
+.facebook:hover #facebook {
+  fill: #3DB370;
+}
